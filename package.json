@@ -1,0 +1,17 @@
+{
+  "name": "airtablejs-netlify-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of integrating airtable.js and Netlify Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "invoke": "netlify functions:invoke hello-world --identity"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "airtable": "^0.9.0",
+    "netlify-cli": "^2.59.0"
+  }
+}
